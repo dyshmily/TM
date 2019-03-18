@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>天猫商城</title>
+      <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/css/headCarousel.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/css/AsideCategorys.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/css/productltem.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <!--顶部导航-->
+  <nav class="top">
+    <a href="index.html">
+      <span class="glyphicon glyphicon-home redColor">
+      </span>
+      天猫首页
+    </a>
+    <span>
+      喵,欢迎来到天猫
+    </span>
+    <a href="login.html">
+      请登录
+    </a>
+    <a href="register.html">
+      免费注册
+    </a>
+    <span class="pull-right">
+      <a href="order.html">
+        我的订单
+      </a>
+      <a href="car.html">
+        <span class="glyphicon glyphicon-shopping-cart redColor">
+        </span>
+        购物车
+        <span class="cartSumNumber bold">
+          0
+        </span>
+        件
+      </a>
+    </span>
+  </nav>
+    <!--搜索-->
+    <div>
+      <a href="#nowhere">
+        <img class="logo" id="logo" src="images/logo.gif"/>
+      </a>
+      <div class="searchDiv">
+        <form method="post">
+          <input name="keyword" placeholder="时尚男鞋 太阳镜" type="text"/>
+          <button class="searchButton" type="submit">搜索</button>
+        </form>
+        <div class="searchBelow">
+          <span>
+            <a href="#nowhere">平衡车</a>
+            <span>|</span>
+          </span>
+          <span>
+            <a href="#nowhere">扫地机器人</a>
+            <span>|</span>
+          </span>
+          <span>
+            <a href="#nowhere">原汁机</a>
+            <span>|</span>
+          </span>
+          <span>
+            <a href="#nowhere">
+              冰箱
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+    <!--轮播-->
+    <div class="menucarouselclear">
+      <div class="categoryWithCarousel">
+        <div class="headbar">
+          <div class="head">
+            <span class="glyphicon glyphicon-th-list" style="margin-left:10px"></span>
+            <span style="margin-left:10px;">
+              商品分类
+            </span>
+          </div>
+          <div class="rightMenu">
+            <span>
+              <a href="#">
+                <img src="images/chaoshi.png"/>
+              </a>
+            </span>
+            <span>
+              <a href="#"><img src="images/guoji.png"/></a>
+            </span>
+            <span><a href="#">平板电脑</a></span>
+            <span><a href="#">电热水器</a></span>
+            <span><a href="#">平板电视</a></span>
+            <span><a href="#">台式电脑</a></span>
+            <span><a href="#">咖啡机</a></span>
+            <span><a href="#">美妆品</a></span>
+            <span><a href="#">苏宁易购</a></span>
+          </div>
+        </div>
+        <!--轮番*自动翻转-->
+        <div id="carousel">
+          <div class="carousel-of-product carousel slide" data-interval="2000" data-ride="carousel" id="carousel-of-product">
+          <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#carousel-of-product">
+            </li>
+            <li class="" data-slide-to="1" data-target="#carousel-of-product">
+            </li>
+            <li class="" data-slide-to="2" data-target="#carousel-of-product">
+            </li>
+            <li class="" data-slide-to="3" data-target="#carousel-of-product">
+            </li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img class="carousel carouselImage" src="images/1.jpg">
+                </img>
+              </div>
+              <div class="item">
+                <img class="carouselImage" src="images/2.jpg">
+                </img>
+              </div>
+              <div class="item">
+                <img class="carouselImage" src="images/3.jpg">
+                </img>
+              </div>
+              <div class="item">
+                <img class="carouselImage" src="images/4.jpg">
+                </img>
+              </div>
+          </div>
+          </div>
+        </div>
+        <!--左导航-->
+        <div class="leftmenu">
+          <div class="categroyMenu">
+            <div cid="83" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                平板电视
+              </a>
+            </div>
+            <div cid="82" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                马桶
+              </a>
+            </div>
+            <div cid="81" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                沙发
+              </a>
+            </div>
+            <div cid="80" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                电热水器
+              </a>
+            </div>
+            <div cid="79" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                平衡车
+              </a>
+            </div>
+            <div cid="78" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                扫地机器人
+              </a>
+            </div>
+            <div cid="77" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                原汁机
+              </a>
+            </div>
+            <div cid="76" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                冰箱
+              </a>
+            </div>
+            <div cid="75" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                空调
+              </a>
+            </div>
+            <div cid="74" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                女表
+              </a>
+            </div>
+            <div cid="73" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                男表
+              </a>
+            </div>
+            <div cid="72" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="shopping.html">
+                男士手提包
+              </a>
+            </div>
+            <div cid="71" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                男士西服
+              </a>
+            </div>
+            <div cid="70" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                时尚男鞋
+              </a>
+            </div>
+            <div cid="69" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                品牌女装
+              </a>
+            </div>
+            <div cid="68" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                太阳镜
+              </a>
+            </div>
+            <div cid="67" class="eachCategory">
+              <span class="glyphicon glyphicon-link">
+              </span>
+              <a href="#nowhere">
+                安全座椅
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--右侧详情-->
+        <div id="right_NMenu">
+          <div cid="83" class="productsAsideCategorys">
+          <div class="row show1">
+              <a href="#nwhere">
+                屏大影院
+              </a>
+              <a href="#nwhere">
+                周末
+              </a>
+              <a href="#nwhere">
+                新品特惠
+              </a>
+              <a href="#nwhere">
+                32寸电视机
+              </a>
+              <a href="#nwhere">
+                智能网络
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                USB高清解
+              </a>
+              <a href="#nwhere">
+                芒果TV在线
+              </a>
+              <a href="#nwhere">
+                抢购价
+              </a>
+              <a href="#nwhere">
+                USB解码
+              </a>
+              <a href="#nwhere">
+                32英寸
+              </a>
+              <a href="#nwhere">
+                10核
+              </a>
+              <a href="#nwhere">
+                TCL品牌日
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                不要赠品
+              </a>
+              <a href="#nwhere">
+                新品上市
+              </a>
+              <a href="#nwhere">
+                4K硬屏
+              </a>
+              <a href="#nwhere">
+                领100元劵
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                智能高清
+              </a>
+              <a href="#nwhere">
+                8月，酷暑
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                8月大促
+              </a>
+              <a href="#nwhere">
+                天猫定制
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                智能操作系统
+              </a>
+              <a href="#nwhere">
+                金色外观
+              </a>
+              <a href="#nwhere">
+                三星屏幕
+              </a>
+              <a href="#nwhere">
+                客厅爆款
+              </a>
+              <a href="#nwhere">
+                八核配置
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <a href="#nwhere">
+                8月大促
+              </a>
+              <a href="#nwhere">
+                天猫定制
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <a href="#nwhere">
+                热销爆款
+              </a>
+              <a href="#nwhere">
+                4K全高清
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                六核智能
+              </a>
+              <a href="#nwhere">
+                14核4K
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                YUNOS
+              </a>
+              <a href="#nwhere">
+                64位处理器
+              </a>
+              <a href="#nwhere">
+                天猫定制
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                YUNOS
+              </a>
+              <a href="#nwhere">
+                微信电视
+              </a>
+              <a href="#nwhere">
+                4k高清
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                64位真4K
+              </a>
+              <a href="#nwhere">
+                10核机芯
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                V字黑釉底座
+              </a>
+              <a href="#nwhere">
+                4K超清
+              </a>
+              <a href="#nwhere">
+                天猫定制
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                64位14核
+              </a>
+              <a href="#nwhere">
+                海星影视
+              </a>
+              <a href="#nwhere">
+                人气爆款
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <a href="#nwhere">
+                真4K屏
+              </a>
+              <a href="#nwhere">
+                64寸巨屏
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                4K超清视界
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                55寸旗舰
+              </a>
+              <a href="#nwhere">
+                4K机皇
+              </a>
+              <a href="#nwhere">
+                人气爆款
+              </a>
+              <a href="#nwhere">
+                曲面机皇
+              </a>
+              <a href="#nwhere">
+                真4K屏
+              </a>
+              <a href="#nwhere">
+                64寸巨屏
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                轻薄4K
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          </div>
+          <!--详情二-->
+          <div cid="82" class="productsAsideCategorys">
+          <div class="row show1">
+              <a href="#nwhere">
+                高性价比
+              </a>
+              <a href="#nwhere">
+                纳米自洁釉
+              </a>
+              <a href="#nwhere">
+                盖板易拆
+              </a>
+              <a href="#nwhere">
+                领券更优惠
+              </a>
+              <a href="#nwhere">
+                全国联保
+              </a>
+              <a href="#nwhere">
+                咨询大惊喜
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                全自动感应
+              </a>
+              <a href="#nwhere">
+                即热式功能
+              </a>
+              <a href="#nwhere">
+                智能护理
+              </a>
+              <a href="#nwhere">
+                官方正品
+              </a>
+              <a href="#nwhere">
+                高效节水
+              </a>
+              <a href="#nwhere">
+                立减300
+              </a>
+              <a href="#nwhere">
+                官方正品
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                3秒速冲
+              </a>
+              <a href="#nwhere">
+                送角阀软管
+              </a>
+              <a href="#nwhere">
+                12大中心仓
+              </a>
+              <a href="#nwhere">
+                蹲坐两用
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                智能高清
+              </a>
+              <a href="#nwhere">
+                领券减50
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                8月大促
+              </a>
+              <a href="#nwhere">
+                全国联保
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                德国品牌
+              </a>
+              <a href="#nwhere">
+                加购收藏
+              </a>
+              <a href="#nwhere">
+                加长型缸体
+              </a>
+              <a href="#nwhere">
+                喷射虹吸
+              </a>
+              <a href="#nwhere">
+                家装狂欢节
+              </a>
+              <a href="#nwhere">
+                AB1287
+              </a>
+              <a href="#nwhere">
+                领券再减
+              </a>
+              <a href="#nwhere">
+                千城入户
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                强劲冲力
+              </a>
+              <a href="#nwhere">
+                包安装
+              </a>
+              <a href="#nwhere">
+                土豪直接付款
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                六核智能
+              </a>
+              <a href="#nwhere">
+                咨询在线客服
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                YUNOS
+              </a>
+              <a href="#nwhere">
+                赠送原厂配件
+              </a>
+              <a href="#nwhere">
+                新聚汇
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                YUNOS
+              </a>
+              <a href="#nwhere">
+                覆盖区域内
+              </a>
+              <a href="#nwhere">
+                指定1800
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                64位真4K
+              </a>
+              <a href="#nwhere">
+                晒图返10元
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                V字黑釉底座
+              </a>
+              <a href="#nwhere">
+                1300城免
+              </a>
+              <a href="#nwhere">
+                久坐舒适
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                晒图送20元
+              </a>
+              <a href="#nwhere">
+                摩普智能马桶
+              </a>
+              <a href="#nwhere">
+                双杆喷头
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <a href="#nwhere">
+                真4K屏
+              </a>
+              <a href="#nwhere">
+                64寸巨屏
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                4K超清视界
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          </div>
+          <!--详情三-->
+          <div cid="81" class="productsAsideCategorys">
+          <div class="row show1">
+              <a href="#nwhere">
+                高性价比
+              </a>
+              <a href="#nwhere">
+                纳米自洁釉
+              </a>
+              <a href="#nwhere">
+                盖板易拆
+              </a>
+              <a href="#nwhere">
+                领券更优惠
+              </a>
+              <a href="#nwhere">
+                全国联保
+              </a>
+              <a href="#nwhere">
+                咨询大惊喜
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                全自动感应
+              </a>
+              <a href="#nwhere">
+                即热式功能
+              </a>
+              <a href="#nwhere">
+                智能护理
+              </a>
+              <a href="#nwhere">
+                官方正品
+              </a>
+              <a href="#nwhere">
+                高效节水
+              </a>
+              <a href="#nwhere">
+                立减300
+              </a>
+              <a href="#nwhere">
+                官方正品
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                3秒速冲
+              </a>
+              <a href="#nwhere">
+                送角阀软管
+              </a>
+              <a href="#nwhere">
+                12大中心仓
+              </a>
+              <a href="#nwhere">
+                蹲坐两用
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                智能高清
+              </a>
+              <a href="#nwhere">
+                领券减50
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                8月大促
+              </a>
+              <a href="#nwhere">
+                全国联保
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                德国品牌
+              </a>
+              <a href="#nwhere">
+                加购收藏
+              </a>
+              <a href="#nwhere">
+                加长型缸体
+              </a>
+              <a href="#nwhere">
+                喷射虹吸
+              </a>
+              <a href="#nwhere">
+                家装狂欢节
+              </a>
+              <a href="#nwhere">
+                AB1287
+              </a>
+              <a href="#nwhere">
+                领券再减
+              </a>
+              <a href="#nwhere">
+                千城入户
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                强劲冲力
+              </a>
+              <a href="#nwhere">
+                包安装
+              </a>
+              <a href="#nwhere">
+                土豪直接付款
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                六核智能
+              </a>
+              <a href="#nwhere">
+                咨询在线客服
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                YUNOS
+              </a>
+              <a href="#nwhere">
+                赠送原厂配件
+              </a>
+              <a href="#nwhere">
+                新聚汇
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                YUNOS
+              </a>
+              <a href="#nwhere">
+                覆盖区域内
+              </a>
+              <a href="#nwhere">
+                指定1800
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                64位真4K
+              </a>
+              <a href="#nwhere">
+                晒图返10元
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                V字黑釉底座
+              </a>
+              <a href="#nwhere">
+                1300城免
+              </a>
+              <a href="#nwhere">
+                久坐舒适
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nwhere">
+                晒图送20元
+              </a>
+              <a href="#nwhere">
+                摩普智能马桶
+              </a>
+              <a href="#nwhere">
+                双杆喷头
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <a href="#nwhere">
+                真4K屏
+              </a>
+              <a href="#nwhere">
+                64寸巨屏
+              </a>
+              <a href="#nwhere" style="color:rgb(135,206,250);">
+                4K超清视界
+              </a>
+              <a href="#nwhere">
+                限时特惠
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          </div>
+          <!--详情四-->
+          <div cid="80" class="productsAsideCategorys"">
+          <div class="row show1">
+              <a href="#nowhere">
+                热卖推荐
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                高档户型客厅
+              </a>
+              <a href="#nowhere">
+                16CM坐垫
+              </a>
+              <a href="#nowhere">
+                匠心独运
+              </a>
+              <a href="#nowhere">
+                大小户型沙发
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                8.23预售
+              </a>
+              <a href="#nowhere">
+                热销爆款
+              </a>
+              <a href="#nowhere">
+                高档进口牛皮
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                三位可躺
+              </a>
+              <a href="#nowhere">
+                北美进口橡木
+              </a>
+              <a href="#nowhere">
+                全香樟实木
+              </a>
+              <a href="#nowhere">
+                厂家直销
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nowhere">
+                可拆洗
+              </a>
+              <a href="#nowhere">
+                4级抗污
+              </a>
+              <a href="#nowhere">
+                多功能
+              </a>
+              <a href="#nowhere">
+                全实木雕刻
+              </a>
+              <a href="#nowhere">
+                3D玛雅绒
+              </a>
+              <a href="#nowhere">
+                北美橡木
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                防水防污
+              </a>
+              <a href="#nowhere">
+                都市转角户型
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nowhere">
+                多功能扶手
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                彼爱专利产品
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                国际设计师
+              </a>
+              <a href="#nowhere">
+                进口头层牛皮
+              </a>
+              <a href="#nowhere">
+                经典爆款
+              </a>
+              <a href="#nowhere">
+                可拆洗设计
+              </a>
+              <a href="#nowhere">
+                优质棉麻面料
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nowhere">
+                高档超柔绒布
+              </a>
+              <a href="#nowhere">
+                进口橡木框架
+              </a>
+              <a href="#nowhere">
+                欧洲白蜡木
+              </a>
+              <a href="#nowhere">
+                北美黑胡桃
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                质保3年
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          <div class="row show1">
+              <a href="#nowhere">
+                8.29零点
+              </a>
+              <a href="#nowhere">
+                头层牛皮
+              </a>
+              <a href="#nowhere">
+                实木雕花
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                全拆洗
+              </a>
+              <a href="#nowhere" style="color: rgb(135, 206, 250);">
+                大师设计
+              </a>
+              <div class="seperator">
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--产品-->
+    <div class="homeProducts">
+      <div class="homeProducts_w">
+        <div class="homepageCategoryProducts">
+        <div class="eachHomepageCategoryProducts">
+          <div class="left-mark">
+          </div>
+          <span class="categoryTitle">
+            太阳镜
+          </span>
+          <br/>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/9543.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]好像是同款墨镜孙红雷偏光男士太阳镜明星
+              </span>
+            </a>
+            <span class="productPrice">
+              97.50
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/9532.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]陌森太阳镜男表女2016偏光定制驾驶近视
+              </span>
+            </a>
+            <span class="productPrice">
+              518.70
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/9521.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]帕莎Prsr太阳镜女偏光镜曹范冰冰同款女
+              </span>
+            </a>
+            <span class="productPrice">
+              624.00
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/9510.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]变色眼镜男女款半框太阳镜大框潮流防辐射
+              </span>
+            </a>
+            <span class="productPrice">
+              170.00
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/9499.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]新款南食品光太阳镜日夜两用墨镜潮运动开场
+              </span>
+            </a>
+            <span class="productPrice">
+              551.00
+            </span>
+          </div>
+          <div style="clear:both">
+          </div>
+        </div>
+        <!--座椅-->
+        <div class="eachHomepageCategoryProducts">
+          <div class="left-mark">
+          </div>
+          <span class="categoryTitle">
+            安全座椅
+          </span>
+          <br/>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/10192.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]新生婴儿提篮式安全座椅汽车用车载儿童安全座椅
+              </span>
+            </a>
+            <span class="productPrice">
+              882.00
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/10181.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]REEBABY汽车儿童安全座椅ISOFI
+              </span>
+            </a>
+            <span class="productPrice">
+              1344.00
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/10170.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]REEBABY而同安区只能做一9个月到12岁
+              </span>
+            </a>
+            <span class="productPrice">
+              1216.00
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/10159.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]好孩子IC和儿童安全座椅goodbaby9
+              </span>
+            </a>
+            <span class="productPrice">
+              1199.00
+            </span>
+          </div>
+          <div class="productltem">
+            <a href="#">
+              <img src="images/10148.jpg"/>
+            </a>
+            <a class="productltemDescLink" href="#">
+              <span class="productltemDesc">
+                [热销]惠尔顿儿童安全座椅isoficx硬接口汽车
+              </span>
+            </a>
+            <span class="productPrice">
+              1993.60
+            </span>
+          </div>
+        </div>
+        <img class="endpng" id="endpng" src="images/end.png"/>
+        </div>
+      </div>
+    </div>
+    <!--底部-->
+    <div class="footer" id="footer" style="display:block">
+        <div class="footer_ensure" id="footer_ensure">
+          <a href="#nowhere">
+            <img src="images/bottom.png"/>
+          </a>
+        </div>
+        <div class="footer_desc" id="footer_desc">
+          <div class="descColumn">
+            <span class="descColumnTitle">
+              购物指南
+            </span>
+            <a href="#nowhere">
+              免费注册
+            </a>
+            <a href="#nowhere">
+              免费注册
+            </a>
+            <a href="#nowhere">
+              免费注册
+            </a>
+          </div>
+          <div class="descColumn">
+            <span class="descColumnTitle">
+              支付方式
+            </span>
+            <a href="#nowhere">
+              快捷方式
+            </a>
+            <a href="#nowhere">
+              信用卡
+            </a>
+            <a href="#nowhere">
+              蚂蚁花呗
+            </a>
+            <a href="#nowhere">
+              货到付款
+            </a>
+          </div>
+          <div class="descColumn">
+            <span class="descColumnTitle">
+              天猫保障
+            </span>
+            <a href="#nowhere">
+              发票保障
+            </a>
+            <a href="#nowhere">
+              售后规则
+            </a>
+            <a href="#nowhere">
+              缺货赔付
+            </a>
+          </div>
+          <div class="descColumn">
+            <span class="descColumnTitle">
+              商家服务
+            </span>
+            <a href="#nowhere">
+              商家入驻
+            </a>
+            <a href="#nowhere">
+              商家中心
+            </a>
+            <a href="#nowhere">
+              天猫智库
+            </a>
+            <a href="#nowhere">
+              天猫规则
+            </a>
+            <a href="#nowhere">
+              物流服务
+            </a>
+            <a href="#nowhere">
+              喵言喵语
+            </a>
+            <a href="#nowhere">
+              运营服务
+            </a>
+          </div>
+          <div class="descColumn">
+            <span class="descColumnTitle">
+              手机天猫
+            </span>
+            <a href="#nowhere">
+              <img src="images/ma.png"/>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div style="clear:both">
+    </div>
+    <div class="footer1" id="footer1">
+      <img class="cateye" id="cateye" src="images/cateye.png"/>
+      <div class="copyright" id="copyright">
+          <div class="white_link">
+            <a href="#nowhere">
+              关于天猫
+            </a>
+            <a href="#nowhere">
+              帮助中心
+            </a>
+            <a href="#nowhere">
+              开放平台
+            </a>
+            <a href="#nowhere">
+              诚聘英才
+            </a>
+            <a href="#nowhere">
+              联系我们
+            </a>
+            <a href="#nowhere">
+              网站合作
+            </a>
+            <a href="#nowhere">
+              法律声明
+            </a>
+            <a href="#nowhere">
+              知识产权
+            </a>
+            <a href="#nowhere">
+              廉正举报
+            </a>
+          </div>
+          <div class="white_link">
+            <a href="#nowhere">
+              阿里巴巴集团
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              淘宝网
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              天猫
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              聚划算
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              全球速卖通
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              阿里巴巴国际交易市场
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              1688
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              阿里妈妈
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              阿里旅行·去啊
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              阿里云计算
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              阿里通信
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              YunOS
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              阿里旅行·去啊
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              万网
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              高德
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              优视
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              友盟
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              虾米
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              天天动听
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              来往
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              钉钉
+            </a>
+            <span class="slash">
+              |
+            </span>
+            <a href="#nowhere">
+              支付宝
+            </a>
+          </div>
+          <div class="license">
+            <span>
+              增值电信业务经营许可证： 浙B2-20110446
+            </span>
+            <span>
+              网络文化经营许可证：浙网文[2015]0295-065号
+            </span>
+            <span>
+              互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号
+            </span>
+            <span>
+              互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005
+            </span>
+            <div class="copyRightYear">
+              © 2003-2016 TMALL.COM 版权所有
+            </div>
+            <div>
+              <img src="images/copyRight1.jpg"/>
+              <img src="images/copyRight2.jpg"/>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="styles/js/jquery.min.js"></script>
+    <script src="styles/js/bootstrap.min.js"></script>
+    <script src="styles/js/mao.js"></script>
+  </body>
+</html>

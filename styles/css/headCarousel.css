@@ -1,0 +1,82 @@
+/* CSS Document */
+/*商品分类*/
+
+div.categoryWithCarousel{
+	width:100%;
+	background-color:#F5F5F5;
+	position:relative;
+}
+div.categoryWithCarousel div.headbar{
+	background-color:#DD2727;
+	height: 36px;
+}
+
+div.categoryWithCarousel div.head{
+	width:200px;
+	background-color:#C60A0A;
+	height:36px;
+	line-height:36px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	margin-left:100px;
+	display:inline-block;
+}
+.carousel-inner {
+	width: 1024px;
+	height: 500px;
+}
+#carousel {
+	position: absolute;
+	left: 250px;
+}
+.leftmenu {
+	position: absolute;
+	left: 80px;
+	top: 0px;
+}
+#right_NMenu {
+	position: absolute;
+	left: 80px;
+	top: 0px;
+}
+div.categoryWithCarousel div.rightMenu{
+	position: absolute;
+	display:inline-block;
+	height: 36px;
+}
+div.categoryWithCarousel div.rightMenu a{
+	font-size:16px;
+	color:white;
+	text-decoration:none;
+}
+div.categoryWithCarousel div.rightMenu span{
+	margin:0 20px 0 20px;
+}
+div.categoryWithCarousel div.rightMenu img{
+	height:36px;
+}
+div.carousel-of-product{
+	height:510px;
+	width:1200px;
+	margin:0 auto;
+}
+img.carouselImage{
+	height:510px !important;
+}
+div.caroouselBackgroundDiv{
+	width:100%;
+	height:510px;
+	background-color:#E8E8E8;
+	position:absolute;
+	top:36px;
+	z-index:-1;
+}
+img.catear {
+	position:absolute;
+	margin-top:235px;
+	height:15px;
+	display:none;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>
+        登录页面
+      </title>
+      <link href="styles/css/3.3.6/bootstrap.min.css" rel="stylesheet"/>
+      <link href="styles/css/login.css" rel="stylesheet" type="text/css"/>
+    </meta>
+  </head>
+  <body>
+    <div id="loginDiv">
+      <div class="simpleLogo">
+        <img src="images/simpleLogo.png"/>
+      </div>
+      <img class="loginBackgroundImg" name="loginBackgroundImg" src="images/loginBackground.png"/>
+      <div class="loginSmallDiv" id="loginSmallDiv">
+        <div class="login_acount_text">
+          账户登录
+        </div>
+        <div class="loginInput">
+          <span class="loginInputIcon">
+            <span class="glyphicon glyphicon-user">
+            </span>
+          </span>
+          <input id="username" name="username" placeholder="手机/会员名/邮箱" type="text"/>
+        </div>
+        <div class="loginInput">
+          <span class="loginInputIcon">
+            <span class="glyphicon glyphicon-lock">
+            </span>
+          </span>
+          <input id="psswd" name="passwd" placeholder="密码" type="password"/>
+        </div>
+        <div>
+          <a class="notImplementLink" href="#">
+            忘记登录密码
+          </a>
+          <a class="pull-right" href="zhuce.html">
+            免费注册
+          </a>
+        </div>
+        <div style="margin-top:20px">
+          <button class="btn btn-block redButton" type="submit">
+            登录
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="styles/js/jquery.min.js"></script>
+    <script src="styles/js/bootstrap.min.js"></script>
+    <script src="styles/js/jiesuan.js"></script>
+  </body>
+</html>

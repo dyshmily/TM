@@ -1,0 +1,113 @@
+/* CSS Document */
+div.aliPayPageDiv{
+	text-align:center;
+	padding-bottom:40px;
+	max-width:1013px;
+	margin:10px auto;
+}
+div.aliPayPageLogo{
+	margin:20px;
+}
+span.confirmMoneyText{
+	color:#4d4d4d;
+}
+span.confirmMoney{
+	display:block;
+	color:#ff6600;
+	font-weight:bold;
+	font-size:20px;
+	margin:10px;
+}
+button.confirmPay{
+	background-color:#00aaee;
+	border:1px solid #00aaee;
+	text-align:center;
+	line-height:31px;
+	font-size:14px;
+	color:#fff;
+	width:107px;
+	margin-top:20px;
+}
+/*支付成功页面*/
+div.payedDiv{
+	border:1px solid #d4d4d4;
+	max-width:1013px;
+	margin:10px auto 20px auto;
+}
+div.payedTextDiv{
+	height:61px;
+	background:#Ecffdc;
+	padding:17px 0 0 25px;
+}
+div.payedTextDiv span{
+	font-weight:bold;
+	font-size:14px;
+	margin-left:10px;
+}
+div.payedAddressInfo{
+	padding:26px 35px;
+}
+div.payedAddressInfo li{
+	background:url(../images/li_dot.png) no-repeat;
+	background-color:transparent;
+	background-attachment:scroll;
+	background-position:0 13px;
+	list-style-type:none;
+	color:#333;
+	padding-left:15px;
+	padding-top:5px;
+}
+span.payedInfoPrice{
+	color:#b10000;
+	font-weight:bold;
+	font-size:14pxx;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.paedCheckLinkDiv{
+	margin-left:38px;
+}
+a.payedCheckLink{
+	color:#2d8cba;
+}
+a.payedCheckLink:hover{
+	color:#2d8cba;
+	text-decoration:underline;
+}
+div.payedSeperateLine{
+	border-top:1px dashed #d4d4d4;
+	margin:0 31px;
+}
+div.warningDiv{
+	margin:23px 45px;
+	color:black;
+}
+.redColor{
+	color:#c40000;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

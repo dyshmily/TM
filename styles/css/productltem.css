@@ -1,0 +1,95 @@
+/* CSS Document */
+div.fullleft{
+	background-color:#F5F5F5;
+	width:25px;
+	height:807px;
+	float:left;
+}
+.homeProducts {
+	width: 100%;
+	margin-top: 20px;
+	border-top: 1px solid #e8e8e8;
+}
+.homeProducts_w {
+	width:1299px;
+	margin: 0 auto;
+}
+div.homepageCategoryProducts{
+	background-color:#F5F5F5;
+	width:1299px;
+}
+
+div.productltem{
+	width:215px;
+	height:300px;
+	border:1px solid white;	
+	margin-left:33px;
+	float:left;
+	cursor:pointer;
+}
+div.productltem:hover{
+	border:1px solid #C40000;
+}
+div.productltem span.productltemDesc{
+	font-size:14px;
+	color:#666666;
+	padding:16px;
+	display:block;
+}
+div.productltem span.productPrice{
+	font-size:16px;
+	color:#FF003A;
+	display:block;
+	padding-left:16px;
+	padding-top:-10px;
+}
+div.productltem img{
+	width:211px;
+	margin:1px;
+	height:204px;
+}
+div.productltem img:hover{
+	opacity:0.8;
+	fiter:alpha(opacity=80);
+}
+div.eachHomepageCategoryProducts{
+	margin:0 0 40px 0;
+}
+a.productltemDescLink{
+	display:inline-block;
+	height:66px;
+	text-decoration:none;
+}
+span.categoryTitle{
+	font-size:16px;
+	margin-left:30px;
+	color:#646464;
+	font-weight:bold;
+}
+div.left-mark{
+	display:inline-block;
+	height:20px;
+	vertical-align:top;
+	width:5px;
+	background-color:#19C8A9;
+}
+img.endpng{
+	padding-top:20px;
+	display:block;
+	width:82px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

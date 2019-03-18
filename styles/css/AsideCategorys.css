@@ -1,0 +1,70 @@
+/* CSS Document */
+/*左侧导航栏*/
+.menucarouselclear {
+	height: 550px;
+	background-color: #E8E8E8;
+}
+div.categroyMenu{
+	width:200px;
+	background-color:#e2e2e3;
+	margin-left:20px;
+	position:absolute;
+	left:0;
+	top:36px;
+	z-index:1;
+}
+div.categroyMenu a{
+	color:#000;
+}
+div.categroyMenu a:hover{
+	color:lightskyblue;
+	text-decoration:none;
+}
+div.productsAsideCategorys{
+	width:800px;
+	height:510px;
+	background-color:white;
+	margin-left:220px;
+	position:absolute;
+	left:0;
+	top:36px;
+	z-index:1;
+	display: none;
+}
+div.productsAsideCategorys div.row{
+	margin:20px 80px 0 80px;
+}
+div.productsAsideCategorys div.row div.seperator{
+	margin-top:20px;
+	border-bottom:1px dashed #e7e7e7;
+}
+div.productsAsideCategorys a{
+	color:#999;
+	font-size:14px;
+	margin:8px;
+}
+div.productsAsideCategorys a:hover{
+	color:#C40000;
+	text-decoration:none;
+}
+div.eachCategory{
+	line-height:30px;
+	padding-left:10px;
+	font-size:14px;
+}
+div.eachCategory span{
+	margin-right:10px;
+}
+div.eachCategory:hover{
+	background-color:white;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+/* CSS Document */
+body,table{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.confirmPayPageDiv{
+	max-width:1013px;
+	margin:10px auto;
+}
+div.confirmPayImageDiv{
+	margin:5px auto 80px auto;
+	width:900px;
+	position:relative;
+}
+div.confirmPayImageDiv div{
+	color:#999;
+}
+div.confirmPayTime3{
+	position:absolute;
+	left:400px;
+	top:100px;
+}
+div.confirmPayTime2{
+	position:absolute;
+	top:100px;
+	left:190px;
+}
+div.confirmPayTime1{
+	position:absolute;
+	top:100px;
+	left:-20px;
+}
+div.confirmPayOrderInfoText{
+	margin:10px 10px 0 10px;
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+	padding-bottom:15px;
+	border-bottom:1px solid #dac8e6;
+}
+div.confirmPayOrderItemDiv{
+	margin:0 20px;
+}
+div.confirmPayOrderItemText{
+	margin:20px 10px;
+	font-size:14px;
+	font-weight:normal;
+	color:black;
+}
+table.confirmPayOrderItemTable{
+	border:1px solid #ddd;
+	width:100%;
+}
+table.confirmPayOrderItemTable thead{
+	background-color:#e8f2ff;
+	height:33px;
+}
+table.confirmPayOrderItemTable tr{
+	border:1px solid #ddd;
+}
+table.confirmPayOrderItemTable th,table.confirmPayOrderItemTable td{
+	text-align:center;
+}
+table.confirmPayOrderItemTable td{
+	padding:20px;
+}
+td.confirmPayOrderItemProductLink{
+	text-align:left !important;
+}
+span.confirmProductPrice{
+	font-size:18px;
+	font-weight:bold;
+	color:#666;
+}
+span.confirmPayOrderItemSumPrice{
+	color:#c40000;
+}
+a{
+	color:#999;
+}
+a:hover{
+	text-decoration:none;
+	color:#c40000;
+}
+/*确认支付下*/
+div.confirmPayOrderDetailDiv{
+	margin:40px;
+}
+table.confirmPayOrderDetailTable{
+	width:100%;
+	border-top:1px solid #ddd;
+}
+table.confirmPayOrderDetailTable td{
+	padding:8px;
+	color:black;
+	font-size:14px;
+}
+span.confirmPayOrderDetailWangWangGif{
+	display:inline-block;;
+	width:67px;
+	height:22px;
+	background:url(../images/wangwang.gif) no-repeat;
+	background-color:transparent;
+	position:relative;
+	left:2px;
+}
+div.confirmPayButtonDiv{
+	border:1px solid #f58b0f;
+	margin:20px;
+}
+div.confirmPayWarning{
+	margin:20px 80px;
+	font-size:18px;
+	color:red;
+	font-weight:bold;
+}
+button.confirmPayButton{
+	margin:20px 80px;
+	width:67px;
+	height:30px;
+	border:1px solid #e67c00;
+	background-color:#f4a21d;
+	border-radius:4px;
+	color:#fff;
+	font-size:12px;
+}
+button.confirmPayButton:hover{
+	background-color:#f6ae30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

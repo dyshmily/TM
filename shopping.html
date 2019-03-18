@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      查询页面
+    </title>
+    <link href="styles/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles/css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/css/shopping.css" rel="stylesheet" type="text/css"/>
+    
+  </head>
+  <body>
+    <!--顶部导航-->
+    <nav class="top">
+      <a href="index.html">
+        <span class="glyphicon glyphicon-home redColor"></span>
+        天猫首页
+      </a>
+      <span>喵,欢迎来到天猫</span>
+      <a href="login.html">请登录</a>
+      <a href="register.html">免费注册</a>
+      <span class="pull-right">
+        <a href="order.html">
+          我的订单
+        </a>
+        <a href="car.html">
+          <span class="glyphicon glyphicon-shopping-cart redColor">
+          </span>购物车<span class="cartSumNumber bold">0</span>件
+        </a>
+      </span>
+    </nav>
+    <!--搜索-->
+    <div>
+      <a href="#nowhere">
+        <img class="logo" id="logo" src="http://how2j.cn/tmall/img/site/logo.gif"/>
+      </a>
+      <div class="searchDiv">
+        <form method="post">
+          <input name="keyword" placeholder="时尚男鞋 太阳镜" type="text"/>
+          <button class="searchButton" type="submit">
+            搜索
+          </button>
+        </form>
+        <div class="searchBelow">
+          <span>
+            <a href="#nowhere">
+              平衡车
+            </a>
+            <span>
+              |
+            </span>
+          </span>
+          <span>
+            <a href="#nowhere">
+              扫地机器人
+            </a>
+            <span>
+              |
+            </span>
+          </span>
+          <span>
+            <a href="#nowhere">
+              原汁机
+            </a>
+            <span>
+              |
+            </span>
+          </span>
+          <span>
+            <a href="#nowhere">
+              冰箱
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!--内容-->
+    <div class="categoryPageDiv">
+      <img src="images/72.jpg"/>
+      <div class="categorySortBar">
+        <table class="categorySortBarTable categorySortTable">
+          <tbody>
+            <tr>
+              <td class="grayColumn">
+                <a href="#">
+                  综合
+                  <span class="glyphicon glyphicon-arrow-down">
+                  </span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  人气
+                  <span class="glyphicon glyphicon-arrow-down">
+                  </span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  新品
+                  <span class="glyphicon glyphicon-arrow-down">
+                  </span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  销量
+                  <span class="glyphicon glyphicon-arrow-down">
+                  </span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  价格
+                  <span class="glyphicon glyphicon-arrow-down">
+                  </span>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="categorySortBarTable">
+          <tbody>
+            <tr>
+              <td>
+                <input class="sortBarPrice beginPrice" placeholder="最低价" type="text"/>
+              </td>
+              <td class="grayColumn priceMiddleColumn">
+                -
+              </td>
+              <td>
+                <input class="sortBarPrice endPrice" placeholder="最高价" type="text"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--具体产品详解-->
+      <div class="categoryProducts">
+        <div class="productUnit" price="799.20">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/7058.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥799.20
+            </span>
+            <a class="productLink" href="#">
+              MAXFEEL休闲男士手包真皮手拿包大容量信封包手抓包夹包软韩版潮
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  16笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  14
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品二-->
+        <div class="productUnit" price="511.20">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/7047.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥511.2
+            </span>
+            <a class="productLink" href="#">
+              宾度 男士手包真皮大容量手拿包牛皮个性潮男包手抓包软皮信封包
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  49笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  18
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品三-->
+        <div class="productUnit" price="448.20">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/7036.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥448.20
+            </span>
+            <a class="productLink" href="#">
+              唯美诺新款男士手包男包真皮大容量小羊皮手拿包信封包软皮夹包潮
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  34笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  16
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品四-->
+        <div class="productUnit" price="411.60">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/7025.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥411.60
+            </span>
+            <a class="productLink" href="#">
+              英伦邦纹男士手包牛皮大容量真皮手拿包手抓包双拉链商务正品软皮
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  25笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  19
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品五-->
+        <div class="productUnit" price="157.25">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/7014.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥157.25
+            </span>
+            <a class="productLink" href="#">
+              劳迪莱斯男士手包休闲手拿包牛皮大容量钱包男包软面小包包手抓包皮夹包潮
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  17笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  16
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品六-->
+        <div class="productUnit" price="268.20">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/7003.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥268.20
+            </span>
+            <a class="productLink" href="#">
+              帕朗尼男士手拿包真皮手包商务休闲头层牛皮软牛皮大容量休闲钱包
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  5笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  19
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品七-->
+        <div class="productUnit" price="233.20">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/6992.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥233.40
+            </span>
+            <a class="productLink" href="#">
+              唯美诺新款男士手包男包真皮大容量小羊皮手拿包信封包软皮夹包潮
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  8笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  19
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--产品八-->
+        <div class="productUnit" price="952.20">
+          <div class="productUnitFrame">
+            <a>
+              <img class="productImage" src="images/6981.jpg"/>
+            </a>
+            <span class="productPrice">
+              ￥952.00
+            </span>
+            <a class="productLink" href="#">
+              唯美诺新款男士手包男包真皮大容量小羊皮手拿包信封包软皮夹包潮
+            </a>
+            <a class="tmallLink" href="#">
+              天猫专卖
+            </a>
+            <div class="show1 productInfo">
+              <span class="monthDeal">
+                月成交
+                <span class="productDealNumber">
+                  20笔
+                </span>
+              </span>
+              <span class="productReview">
+                评论
+                <span class="productReviewNumber">
+                  16
+                </span>
+              </span>
+              <span class="wangwang">
+                <a class="wangwanglink" href="#">
+                  <img src="images/wangwang.png"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div style="clear:both">
+        </div>
+      </div>
+    </div>
+    <!--底部-->
+    <div class="footer" id="footer" style="display:block">
+      <div class="footer_ensure" id="footer_ensure">
+        <a href="#nowhere">
+          <img src="images/bottom.png"/>
+        </a>
+      </div>
+      <div class="footer_desc" id="footer_desc">
+        <div class="descColumn">
+          <span class="descColumnTitle">
+            购物指南
+          </span>
+          <a href="#nowhere">
+            免费注册
+          </a>
+          <a href="#nowhere">
+            免费注册
+          </a>
+          <a href="#nowhere">
+            免费注册
+          </a>
+        </div>
+        <div class="descColumn">
+          <span class="descColumnTitle">
+            支付方式
+          </span>
+          <a href="#nowhere">
+            快捷方式
+          </a>
+          <a href="#nowhere">
+            信用卡
+          </a>
+          <a href="#nowhere">
+            蚂蚁花呗
+          </a>
+          <a href="#nowhere">
+            货到付款
+          </a>
+        </div>
+        <div class="descColumn">
+          <span class="descColumnTitle">
+            天猫保障
+          </span>
+          <a href="#nowhere">
+            发票保障
+          </a>
+          <a href="#nowhere">
+            售后规则
+          </a>
+          <a href="#nowhere">
+            缺货赔付
+          </a>
+        </div>
+        <div class="descColumn">
+          <span class="descColumnTitle">
+            商家服务
+          </span>
+          <a href="#nowhere">
+            商家入驻
+          </a>
+          <a href="#nowhere">
+            商家中心
+          </a>
+          <a href="#nowhere">
+            天猫智库
+          </a>
+          <a href="#nowhere">
+            天猫规则
+          </a>
+          <a href="#nowhere">
+            物流服务
+          </a>
+          <a href="#nowhere">
+            喵言喵语
+          </a>
+          <a href="#nowhere">
+            运营服务
+          </a>
+        </div>
+        <div class="descColumn">
+          <span class="descColumnTitle">
+            手机天猫
+          </span>
+          <a href="#nowhere">
+            <img src="http://how2j.cn/tmall/img/site/ma.png"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="clear:both">
+    </div>
+    <div class="footer1" id="footer1">
+      <img class="cateye" id="cateye" src="http://how2j.cn/tmall/img/site/cateye.png"/>
+      <div class="copyright" id="copyright">
+        <div class="white_link">
+          <a href="#nowhere">
+            关于天猫
+          </a>
+          <a href="#nowhere">
+            帮助中心
+          </a>
+          <a href="#nowhere">
+            开放平台
+          </a>
+          <a href="#nowhere">
+            诚聘英才
+          </a>
+          <a href="#nowhere">
+            联系我们
+          </a>
+          <a href="#nowhere">
+            网站合作
+          </a>
+          <a href="#nowhere">
+            法律声明
+          </a>
+          <a href="#nowhere">
+            知识产权
+          </a>
+          <a href="#nowhere">
+            廉正举报
+          </a>
+        </div>
+        <div class="white_link">
+          <a href="#nowhere">
+            阿里巴巴集团
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            淘宝网
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            天猫
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            聚划算
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            全球速卖通
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            阿里巴巴国际交易市场
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            1688
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            阿里妈妈
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            阿里旅行·去啊
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            阿里云计算
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            阿里通信
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            YunOS
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            阿里旅行·去啊
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            万网
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            高德
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            优视
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            友盟
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            虾米
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            天天动听
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            来往
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            钉钉
+          </a>
+          <span class="slash">
+            |
+          </span>
+          <a href="#nowhere">
+            支付宝
+          </a>
+        </div>
+        <div class="license">
+          <span>
+            增值电信业务经营许可证： 浙B2-20110446
+          </span>
+          <span>
+            网络文化经营许可证：浙网文[2015]0295-065号
+          </span>
+          <span>
+            互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号
+          </span>
+          <span>
+            互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005
+          </span>
+          <div class="copyRightYear">
+            © 2003-2016 TMALL.COM 版权所有
+          </div>
+          <div>
+            <img src="images/copyRight1.jpg"/>
+            <img src="images/copyRight2.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="styles/js/jquery.min.js"></script>
+    <script src="styles/js/bootstrap.min.js"></script>
+    <script src="styles/js/shopping.js"></script>
+  </body>
+</html>

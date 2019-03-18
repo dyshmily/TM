@@ -1,0 +1,172 @@
+/* CSS Document */
+div.reviewDiv{
+	max-width:1013px;
+	margin:10px auto;
+}
+div.reviewProductInfoDiv{
+	float:left;
+	border:1px solid #e7e7e7;
+	width:464px;
+	text-align:center;
+}
+div.reviewProductInfoRightDiv{
+	overflow:hidden;
+	border-top:1px solid #e7e7e7;
+	padding:30px 20px;
+}
+div.reviewProductInfoRightText{
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+}
+table.reviewProductInfoTable{
+	margin:20px 10px;
+	font-size:12px;
+}
+table.reviewProductInfoTable td{
+	padding-bottom:5px;
+	color:#999;
+}
+span.reviewProductInfoTablePrice{
+	color:#c40000;
+	font-size:20px;
+	font-weight:bold;
+}
+span.reviewProductInfoTableSellNumber{
+	color:#c40000;
+	font-size:14px;
+	font-weight:bold;
+}
+div.reviewProductInfoRightBelowDiv{
+	border:1px solid #f6f5f3;
+	background-color:#fdfbfa;
+	height:166px;
+	padding:16px 0 16px 81px;
+}
+span.reviewProductInfoRightBelowImg{
+	background-color:#fff;
+	border:1px solid #e1e1e1;
+	display:inline-block;
+	width:23px;
+	height:42px;
+	background:url(../images/reviewLight.png) no-repeat;
+	padding:0;
+}
+span.reviewProductInfoRightBelowText{
+	border:1px solid #efefef;
+	display:inline-block;
+	width:200px;
+	height:42px;
+	padding:4px;
+	position:relative;
+	left:-4px;
+	top:11px;
+	color:#666;
+	font-size:12px;
+}
+img.reviewProductImg{
+	width:400px;
+	height:400px;
+}
+
+div.reviewStasticsDiv{
+	margin-top:20px;
+}
+div.reviewStasticsLeft{
+	width:180px;
+	float:left;
+}
+div.reviewStasticsLeftTop{
+	background-color:#c40000;
+	height:6px;
+}
+div.reviewStasticsLeftContent{
+	line-height:29px;
+	border-left:1px solid #d5d4d4;
+	border-right:1px solid #d5d4d4;
+	background-color:#f6f5f1;
+	text-align:center;
+	font-size:14px;
+	color:#363535;
+	font-weight:bold;
+}
+div.reviewStasticsLeftFoot{
+	height:6px;
+	border-left:1px solid #d5d4d4;
+	border-bottom:1px solid #d5d4d4;
+	background-color:#f6f5f1;
+}
+span.reviewStasticsNumber{
+	color:#284ca5;
+}
+div.reviewStasticsRight{
+	overflow:hidden;
+}
+div.reviewStasticsRightEmpty{
+	height:35px;
+}
+div.reviewStasticsFoot{
+	background-color:#f6f5f1;
+	border:1px solid #d5d4d4;
+	border-left-width:0px;
+	height:6px;
+}
+div.makeReviewDiv{
+	border:1px solid #d1ccc8;
+	margin:20px 0;
+	background-color:#efefef;
+}
+div.makeReviewText{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	margin:20px 40px;
+}
+table.makeReviewTable{
+	margin:20px 40px;
+	font-size:12px;
+}
+table.makeReviewTable td{
+	border:1px solid #e7e7e7;
+	padding:10px;
+	background-color:#fff;
+}
+table.makeReviewTable textarea{
+	border-width:0px;
+	resize:none;
+	width:420px;
+	height:120px;
+}
+td.makeReviewTableFirstTD{
+	background-color:#f6f6f6;
+}
+div.makeReviewButtonDiv{
+	background-color:#fff;
+	text-align:center;
+	padding:15px;
+}
+div.makeReviewButtonDiv button{
+	background-color:#c40000;
+	width:72px;
+	height:26px;
+	border-radius:2px;
+	color:#fff;
+	border-width:0px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
